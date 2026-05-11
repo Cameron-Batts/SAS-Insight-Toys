@@ -1,91 +1,36 @@
-# SAS Visual Analytics Dashboard Collection
+# SAS Visual Analytics: Insight Toys Executive Dashboard
 
-**Tools:** SAS Visual Analytics · SAS Studio · Business Intelligence · Dashboard Reporting · Geographic Visualization · Data Visualization
+**Tools:** SAS Visual Analytics · SAS Studio · Business Intelligence · Dashboard Reporting · KPI Monitoring
+
+---
+
+# Business Problem
+
+Organizations managing large product portfolios and manufacturing operations require centralized reporting to better monitor product performance, operational efficiency, customer satisfaction, and production output.
+
+This project uses SAS Visual Analytics to build an executive dashboard suite for Insight Toys focused on operational reporting, product analytics, and manufacturing performance monitoring.
+
+The objective was to improve visibility into organizational performance through interactive dashboard reporting and business intelligence analytics.
 
 ---
 
 # Project Overview
 
-This repository contains a collection of interactive business intelligence dashboards developed using SAS Visual Analytics and SAS Studio.
-
-The dashboards analyze:
-- customer activity
-- product distribution
-- supplier reporting
-- inventory composition
-- operational performance
-- manufacturing yield
-- geographic sales trends
-
-The objective of this project collection was to demonstrate how interactive dashboard reporting can support operational visibility, executive decision-making, and business intelligence analysis across multiple organizational functions.
-
----
-
-# Dashboard Collection
-
-## Customer Analysis Dashboard
-
-The Customer Analysis dashboard focuses on:
-- geographic customer concentration
-- retail sales activity
-- regional customer segmentation
-- order distribution reporting
-
-Key features include:
-- interactive map visualization
-- customer concentration analysis
-- retail sales KPI reporting
-- geographic filtering
-
----
-
-## Facility & Product Distribution Dashboard
-
-The Facility & Product Distribution dashboard analyzes:
-- supplier activity
-- product category concentration
-- inventory distribution
-- regional operational reporting
-
-Key features include:
-- supplier treemap visualization
-- product category analysis
-- product group reporting
-- regional filtering capabilities
-
----
-
-## Product Analysis Dashboard
-
-The Product Analysis dashboard focuses on:
-- product mix reporting
-- category concentration
-- inventory composition
-- product portfolio visualization
-
-Key features include:
-- donut chart KPI visualization
-- category ranking analysis
-- treemap inventory reporting
-- product line segmentation
-
----
-
-## Insight Toys Executive Dashboard
-
-The Insight Toys dashboard suite combines:
-- executive KPI reporting
-- customer satisfaction tracking
+The dashboard suite provides:
+- executive KPI monitoring
+- customer satisfaction reporting
 - product profit analysis
-- manufacturing operations analysis
-- production yield monitoring
+- manufacturing yield analysis
+- production monitoring
+- discard tracking
+- product line reporting
 
-Key metrics include:
-- production totals
-- discard analysis
-- target output reporting
-- yield rate analysis
-- customer satisfaction monitoring
+The dashboards were designed to support:
+- executive decision-making
+- operational visibility
+- manufacturing performance analysis
+- product portfolio reporting
+- business intelligence monitoring
 
 ---
 
@@ -95,49 +40,73 @@ Key metrics include:
 - SAS Studio
 - SAS Reporting
 - Interactive Dashboards
+- KPI Visualization
 - Business Intelligence Reporting
-- Geographic Visualization
-- KPI Monitoring
-- Data Visualization
 
 ---
 
 # Analytical Focus Areas
 
-- Business intelligence dashboards
-- Customer analytics
+- Executive dashboard reporting
 - Product analytics
-- Inventory reporting
-- Supplier analysis
-- Geographic reporting
-- Operational analytics
-- Manufacturing analysis
+- Manufacturing analytics
 - Yield rate monitoring
-- KPI visualization
+- Customer satisfaction analysis
+- Production reporting
+- Operational performance monitoring
 
 ---
 
-# Dashboard Visualizations
+# Dashboard Components
 
-## Customer Analysis Dashboard
+## Executive Overview Dashboard
 
-![Customer Analysis Dashboard](./Images/Customer-Analysis.png)
+The executive dashboard includes:
+- geographic operational visualization
+- customer satisfaction tracking
+- product profit monitoring
+- product line analysis
 
----
-
-## Facility & Product Distribution Dashboard
-
-![Facility and Products Dashboard](./Images/Facility-and-Products.png)
-
----
-
-## Product Analysis Dashboard
-
-![Product Analysis Dashboard](./Images/Product-Analysis.png)
+Key metrics include:
+- Customer Satisfaction
+- Product Profit
+- Product Line Distribution
 
 ---
 
-## Insight Toys Dashboard
+# Product Analysis Dashboard
+
+The product analysis section focuses on:
+- product quality monitoring
+- order volume analysis
+- product line reporting
+- product composition visualization
+
+Key features include:
+- treemap analysis
+- product quality KPIs
+- order distribution reporting
+- product style analysis
+
+---
+
+# Manufacturing & Unit Analysis
+
+The unit analysis dashboard monitors:
+- production totals
+- discard levels
+- production targets
+- manufacturing yield rates
+
+Key KPIs include:
+- Production: **4M**
+- Discards: **115K**
+- Target Output: **4.3M**
+- Average Yield Rate: **90%**
+
+---
+
+# Dashboard Visualization
 
 ![Insight Toys Dashboard](./Images/Insight-Toys.png)
 
@@ -145,11 +114,10 @@ Key metrics include:
 
 # Key Insights
 
-- Interactive dashboards improve accessibility and operational visibility for business users.
-- Geographic visualization supports regional customer and sales analysis.
-- Product concentration analysis helps identify dominant inventory categories.
-- Manufacturing KPIs such as yield rate and discards support operational performance monitoring.
-- Business intelligence dashboards improve executive reporting and organizational decision-making.
+- Interactive dashboards improve visibility into manufacturing and operational performance.
+- Product quality and order reporting support product portfolio monitoring.
+- Yield rate analysis helps identify operational inefficiencies and production performance trends.
+- Executive KPI dashboards improve accessibility and business intelligence reporting.
 
 ---
 
@@ -168,26 +136,17 @@ README.md    -> project overview and documentation
 
 | File | Description |
 |------|-------------|
-| `reports/Family_Products_on_Apr_25__2026.pdf` | Facility & product distribution dashboard |
-| `reports/Report-Links-on-Apr-25-2026.pdf` | Customer analysis dashboard |
-| `reports/Product_Analysis_on_Apr_25__2026.pdf` | Product analysis dashboard |
-| `reports/Toys_Report_on_Apr_25__2026.pdf` | Insight Toys executive dashboard suite |
-| `Images/` | Dashboard screenshots and visualization outputs |
+| `reports/Toys_Report_on_Apr_25__2026.pdf` | Exported SAS Visual Analytics executive dashboard report |
+| `Images/Insight-Toys.png` | Dashboard visualization screenshot |
 | `data/README.md` | Information regarding project data source and usage |
 
 ---
 
 # Data
 
-The dashboards use real operational business data accessed through the SAS repository and SAS Visual Analytics environment.
+This project uses real operational business data accessed through the SAS repository and SAS Visual Analytics environment.
 
-The data was used to support:
-- customer analysis
-- product reporting
-- inventory visualization
-- operational analytics
-- manufacturing performance monitoring
-- executive KPI reporting
+The data was used to analyze product performance, manufacturing operations, customer satisfaction, production yield, and executive KPI reporting.
 
 ---
 
