@@ -108,7 +108,7 @@ Key KPIs include:
 
 # Dashboard Visualization
 
-![Insight Toys Dashboard](./Images/Insight-Toys.png)
+![Insight Toys Dashboard](./Images/Insight%20Toys.png)
 
 ---
 
@@ -137,7 +137,7 @@ README.md    -> project overview and documentation
 | File | Description |
 |------|-------------|
 | `reports/Toys_Report_on_Apr_25__2026.pdf` | Exported SAS Visual Analytics executive dashboard report |
-| `Images/Insight-Toys.png` | Dashboard visualization screenshot |
+| `Images/Insight Toys.png` | Dashboard visualization screenshot |
 | `data/README.md` | Information regarding project data source and usage |
 
 ---
