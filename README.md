@@ -1,160 +1,35 @@
-# SAS Visual Analytics: Insight Toys Executive Dashboard
+# Insight Toys Product and Manufacturing Dashboard
 
-**Tools:** SAS Visual Analytics · SAS Studio · Business Intelligence · Dashboard Reporting · KPI Monitoring
+**Author:** Cameron Batts
 
----
+## Problem
+Organize a demonstration company’s product, quality and manufacturing indicators into an executive reporting view.
 
-# Business Problem
+## Dashboard design and review
+Review the Overview, Product Analysis and Unit Analysis pages. Compare KPI labels with the exported table totals and document the difference between an average displayed rate and an aggregate production-to-target ratio.
 
-Organizations managing large product portfolios and manufacturing operations require centralized reporting to better monitor product performance, operational efficiency, customer satisfaction, and production output.
+## Findings
+The Unit Analysis export displays total production of 4,017,238, discards of 115,288 and target production of 4,328,016, alongside a labeled average Yield Rate of 90%. Dividing the displayed production total by target gives 92.82%, a different aggregate statistic. Visible unit rows include approximately 26%, 15% and 14% yield values; the report appendix defines a display rule for Yield Rate below 50%.
 
-This project uses SAS Visual Analytics to build an executive dashboard suite for Insight Toys focused on operational reporting, product analytics, and manufacturing performance monitoring.
+## Limitations
+The 90% value is the export’s labeled average, not a verified weighted aggregate or a measure of causal improvement. Underlying rows, calculated-item definitions and the native SAS report are absent, so totals and aggregation grain cannot be recomputed. The visible table is a viewport and does not establish the total number of facility units. Navigation/filtering instructions in a static PDF do not establish that live interactions are available. No measured decision-speed, waste-reduction or production improvement is documented.
 
-The objective was to improve visibility into organizational performance through interactive dashboard reporting and business intelligence analytics.
+## Data and provenance
+The export names INSIGHT_TOY_COMPANY_2017. SAS documentation identifies this as data for a fictitious toy company, rather than real client operational records. The raw table is not bundled. Report creation/update timestamps in April 2026 do not change the underlying sample-data year.
 
----
+## Verification
+KPI values, footer labels and the below-50% display rule were checked in the PDF text and rendered pages. The production/target ratio was recomputed from displayed totals. SAS was not accessed, and no underlying dataset was available.
 
-# Project Overview
+## Reading the dashboard
+The Overview presents customer satisfaction and product profit. Product Analysis combines product-line bars, a product-make treemap and style-level detail. Unit Analysis brings production, discards, targets and yield into one view.
 
-The dashboard suite provides:
-- executive KPI monitoring
-- customer satisfaction reporting
-- product profit analysis
-- manufacturing yield analysis
-- production monitoring
-- discard tracking
-- product line reporting
+## View the project
+- [Analysis report](Reports/sas_insight_toys.html)
+- [Portfolio analysis](https://cameron-batts.github.io/sas_insight_toys.html)
+- [Original export: Toys_Report_on_Apr_25__2026.pdf](Reports/Toys_Report_on_Apr_25__2026.pdf)
 
-The dashboards were designed to support:
-- executive decision-making
-- operational visibility
-- manufacturing performance analysis
-- product portfolio reporting
-- business intelligence monitoring
+## Dashboard previews
+![Insight Toys](Images/Insight%20Toys.png)
 
----
-
-# Tools & Technologies
-
-- SAS Visual Analytics
-- SAS Studio
-- SAS Reporting
-- Interactive Dashboards
-- KPI Visualization
-- Business Intelligence Reporting
-
----
-
-# Analytical Focus Areas
-
-- Executive dashboard reporting
-- Product analytics
-- Manufacturing analytics
-- Yield rate monitoring
-- Customer satisfaction analysis
-- Production reporting
-- Operational performance monitoring
-
----
-
-# Dashboard Components
-
-## Executive Overview Dashboard
-
-The executive dashboard includes:
-- geographic operational visualization
-- customer satisfaction tracking
-- product profit monitoring
-- product line analysis
-
-Key metrics include:
-- Customer Satisfaction
-- Product Profit
-- Product Line Distribution
-
----
-
-# Product Analysis Dashboard
-
-The product analysis section focuses on:
-- product quality monitoring
-- order volume analysis
-- product line reporting
-- product composition visualization
-
-Key features include:
-- treemap analysis
-- product quality KPIs
-- order distribution reporting
-- product style analysis
-
----
-
-# Manufacturing & Unit Analysis
-
-The unit analysis dashboard monitors:
-- production totals
-- discard levels
-- production targets
-- manufacturing yield rates
-
-Key KPIs include:
-- Production: **4M**
-- Discards: **115K**
-- Target Output: **4.3M**
-- Average Yield Rate: **90%**
-
----
-
-# Dashboard Visualization
-
-![Insight Toys Dashboard](./Images/Insight%20Toys.png)
-
----
-
-# Key Insights
-
-- Interactive dashboards improve visibility into manufacturing and operational performance.
-- Product quality and order reporting support product portfolio monitoring.
-- Yield rate analysis helps identify operational inefficiencies and production performance trends.
-- Executive KPI dashboards improve accessibility and business intelligence reporting.
-
----
-
-# Repository Structure
-
-```text
-data/        -> project data information
-Images/      -> dashboard screenshots and visual outputs
-reports/     -> exported PDF dashboard reports
-README.md    -> project overview and documentation
-```
-
----
-
-# Files
-
-| File | Description |
-|------|-------------|
-| `reports/Toys_Report_on_Apr_25__2026.pdf` | Exported SAS Visual Analytics executive dashboard report |
-| `Images/Insight Toys.png` | Dashboard visualization screenshot |
-| `data/README.md` | Information regarding project data source and usage |
-
----
-
-# Data
-
-This project uses real operational business data accessed through the SAS repository and SAS Visual Analytics environment.
-
-The data was used to analyze product performance, manufacturing operations, customer satisfaction, production yield, and executive KPI reporting.
-
----
-
-# Author
-
-Cameron Batts
-
-GitHub: https://github.com/Cameron-Batts
-
-Portfolio: https://cameron-batts.github.io
-
+## References
+- [SAS documentation: Insight_Toy_Company_2017 is a fictitious-company dataset](https://support.sas.com/content/dam/SAS/support/en/books/interactive-reports-in-sas-visual-analytics/75618_excerpt.pdf)
