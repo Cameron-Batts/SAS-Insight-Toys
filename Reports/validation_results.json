@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "scope": "Static export and repository asset audit; no native SAS runtime or source-data reconstruction.",
+  "pdf": "Reports/Toys_Report_on_Apr_25__2026.pdf",
+  "pdf_sha256": "1def6cd06c8ac45d227949526d3c37d9b007f5d1debc521f04d27b5729804884",
+  "pages": 6,
+  "text_extraction_succeeded": true,
+  "native_sas_run": false,
+  "native_report_definition_bundled": false,
+  "raw_source_tables_bundled": false,
+  "dashboard_page_rendered_for_review": 3,
+  "sample_dashboard_page_visually_reviewed": true
+}
